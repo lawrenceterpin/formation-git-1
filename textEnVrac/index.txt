@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+Bonjour je suis sur GIT (modifié sur Github)
+=======
+<<<<<<< HEAD
+
+=======
+&Bonjour je suis sur GIT (modifié sur Github)
+>>>>>>> bec4b84afdfde6d3837cc0db2d148ae566df4d99
+=======
+&Bonjour je suis sur GIT (modifié sur Github)
+>>>>>>> 208c8c7031c027414900857cce3ea7f0d8c620b3
+>>>>>>> 9972afc3a41b8c535e1425257e7324ead9f4708f
