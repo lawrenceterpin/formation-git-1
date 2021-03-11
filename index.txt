@@ -1,1 +1,4 @@
-Bonjour je suis sur GIT (modifié par Sofiane)
+
+=======
+&Bonjour je suis sur GIT (modifié sur Github)
+>>>>>>> bec4b84afdfde6d3837cc0db2d148ae566df4d99
