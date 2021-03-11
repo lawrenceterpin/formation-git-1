@@ -2391,10 +2391,14 @@ input[type="radio"] + label:before {
 }
 
 .box.person .image {
+	display: flex;
+    width: 147px;
+    height: 147px;
 	margin-bottom: 1em;
 }
 
 .box.person .image img {
+	width: 100%;
 	max-width: 100%;
 }
 
