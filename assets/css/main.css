@@ -1705,19 +1705,19 @@ body {
 	width: device-width;
 }
 
-<<<<<<< HEAD
-	#banner {
-		padding: 12em 0 10em 0;
-		background-image: url('../../images/paysage.jpg');
-		background-size: cover;
-		background-position: top;
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		text-align: center;
-		border-top: 0.5em solid #5385c1;
-=======
 body {
 	-ms-overflow-style: scrollbar;
+}
+
+#banner {
+	padding: 12em 0 10em 0;
+	background-image: url('../../images/paysage.jpg');
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	border-top: 0.5em solid #5385c1;
 }
 
 @media screen and (max-width: 480px) {
@@ -1790,7 +1790,6 @@ textarea {
 	select,
 	textarea {
 		font-size: 12pt;
->>>>>>> leolchalot
 	}
 }
 
