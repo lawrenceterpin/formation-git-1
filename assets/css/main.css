@@ -3158,6 +3158,8 @@ button:disabled,
 }
 
 /* Footer */
+
+/* Début Modifs de Léo */
 #footer{
 	background: linear-gradient(red, blue);
 }
@@ -3173,6 +3175,7 @@ button:disabled,
 		padding-right: 2em;
 		color: white;
 	}
+	/* Fin Modifs de Léo */
 
 #footer .inner {
 	border-top: 1px solid #dbdbdb;
