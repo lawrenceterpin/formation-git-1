@@ -2401,11 +2401,13 @@ input[type="radio"] + label:before {
 	background-color: #496c96;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 25px;
+	transition: all 1.5s ease;
 }
 
 .box.person.yoann:hover {
 	border-radius: 15px;
 	box-shadow: 6px 6px 6px 6px lightskyblue;
+	transform:scale(1.05);
 }
 
 .box.person h3 {
