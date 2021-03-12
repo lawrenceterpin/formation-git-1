@@ -1,0 +1,41 @@
+.styled {
+    border: 0;
+    line-height: 1.5;
+    padding: 0 15px;
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 20px;
+    background-color: rgba(3, 10, 43, 0.404);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    
+}
+
+.styled:hover {
+    background-color: rgb(11, 7, 39);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.a2{ 
+    font-size: 100%;
+    color: #5395c1;
+	text-decoration: underline;
+    
+}
+ .a2:hover {
+    text-decoration: none;
+}
+
+   
+    
+   
