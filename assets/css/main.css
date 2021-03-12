@@ -2424,7 +2424,25 @@ input[type="radio"] + label:before {
 }
 
 /* Image */
-
+.carteSofiane:hover {
+	box-shadow: 10px 5px 5px #0c5934;
+}
+.carteSofiane  {
+	border: thick double #1e5638!important;
+	background-color: #43877e!important;
+	font-family: 'Lobster', cursive;
+}
+.carteSofiane p {
+	font-size: 1.5em;
+	color: #1e5638!important;
+}
+.carteSofiane h3 {
+	font-size: 2.5em;
+	color: #1e5638!important;
+}
+.photoSofiane img{
+	border: thick double #1e5638!important;
+}
 .image {
 	border-radius: 0;
 	border: 0;
