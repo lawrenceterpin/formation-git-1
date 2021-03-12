@@ -3176,7 +3176,7 @@ button:disabled,
 
 /* Début Modifs de Léo */
 #footer{
-	background: linear-gradient(red, blue);
+	background: linear-gradient(white, #5385c1);
 }
 
 .menuFooter{
@@ -3198,7 +3198,7 @@ button:disabled,
 }
 
 #footer .copyright {
-	color: #bbb;
+	color: white;
 	font-size: 0.8em;
 	margin: 0 0 2em 0;
 	padding: 0;
@@ -3206,7 +3206,7 @@ button:disabled,
 }
 
 #footer .copyright a {
-	color: #bbb;
+	color: white;
 	text-decoration: none;
 }
 
