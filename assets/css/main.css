@@ -2383,6 +2383,16 @@ input[type="radio"] + label:before {
 	padding: 0;
 }
 
+.carteHayet{
+	opacity: 0;
+}
+
+.carteHayet:hover {
+	background-color:#2e8d438a;
+	transition: all 1s ease-out;
+	opacity: 1;
+}
+
 .leo{
 	box-shadow: .5em 3px 15px;
 	border-radius: 10px;
