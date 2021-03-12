@@ -143,7 +143,9 @@ table {
 body {
 	-webkit-text-size-adjust: none;
 }
-
+html{
+	scroll-behavior: smooth;
+}
 /* Box Model */
 
 *,
@@ -2381,13 +2383,42 @@ input[type="radio"] + label:before {
 	padding: 0;
 }
 
+.leo{
+	box-shadow: .5em 3px 15px;
+	border-radius: 10px;
+}
+
+.leo:hover{
+	background-color: #D3DAE0;
+	box-shadow: none;
+	color: #5385c1!important;
+}
+
 .box.person {
 	border: solid 1px rgba(255, 255, 255, 0.25);
 	padding: 3em 1.5em;
 }
+.box.person.yoann{
+	border: solid 2px darkblue;
+	border-radius: 25px;
+	background-color: greenyellow;
+	color: black;	
+}
+.box.person.yoann:hover {
+	border: solid 2px lightskyblue;
+	box-shadow: 20px 20px 20px 20px lightskyblue;
+	background-color: darkslateblue;
+	transition: ease-in-out 2;
+	
+}
 
 .box.person h3 {
 	margin: 0;
+}
+.box.person.yoann h3 {
+	margin: 0;
+	color: black;
+	
 }
 
 .box.person .image {
@@ -2400,6 +2431,29 @@ input[type="radio"] + label:before {
 .box.person .image img {
 	width: 100%;
 	max-width: 100%;
+}
+
+.card_alexandre:hover{
+	background-color: #d4e0ef;
+}
+.card_alexandre:hover img{
+	transform: rotate(360deg);
+	transition: all 10s linear;
+}
+.card_alexandre:hover h3 {
+	color:black!important;
+}
+
+.card_alexandre:hover p {
+	color:black;
+	margin-bottom: auto;
+}
+.surprise{
+	display:none;
+	color:black;
+}
+.card_alexandre:hover p.surprise{
+	display: block;
 }
 
 /* Icon */
@@ -2424,24 +2478,34 @@ input[type="radio"] + label:before {
 }
 
 /* Image */
-.carteSofiane:hover {
-	box-shadow: 10px 5px 5px #0c5934;
+.carteSofiane:hover{
+	box-shadow: 10px 5px 5px #1c6b49;
+	border-radius: 15px;
+	background-color: #85c2b1;
 }
-.carteSofiane  {
-	border: thick double #1e5638!important;
-	background-color: #43877e!important;
+.carteSofiane {
+	background-color: #71a898;
+	color: #26663b;
 	font-family: 'Lobster', cursive;
-}
-.carteSofiane p {
-	font-size: 1.5em;
-	color: #1e5638!important;
+	border: thick double #26663b!important;
+	box-shadow: 0;
+	transition: box-shadow 1s ,border-radius 1s linear ,background-color 1s linear ;
 }
 .carteSofiane h3 {
 	font-size: 2.5em;
-	color: #1e5638!important;
+	color:#26663b!important ;
 }
-.photoSofiane img{
-	border: thick double #1e5638!important;
+.carteSofiane p {
+	font-size: 1.5em;
+	color:#26663b!important ;
+}
+.photoSofiane img {
+	border: thick double #26663b!important;
+	border-style: dashed double none!important;
+	transition: box-shadow 1s;
+}
+.photoSofiane img:hover {
+	box-shadow: 10px 5px 5px #1c6b49;
 }
 .image {
 	border-radius: 0;
@@ -3194,7 +3258,7 @@ button:disabled,
 
 /* Début Modifs de Léo */
 #footer{
-	background: linear-gradient(white, #5385c1);
+	background: linear-gradient(red, blue);
 }
 
 .menuFooter{
@@ -3216,7 +3280,7 @@ button:disabled,
 }
 
 #footer .copyright {
-	color: white;
+	color: #bbb;
 	font-size: 0.8em;
 	margin: 0 0 2em 0;
 	padding: 0;
@@ -3224,7 +3288,7 @@ button:disabled,
 }
 
 #footer .copyright a {
-	color: white;
+	color: #bbb;
 	text-decoration: none;
 }
 
