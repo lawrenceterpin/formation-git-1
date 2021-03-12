@@ -2397,33 +2397,41 @@ input[type="radio"] + label:before {
 	padding: 3em 1.5em;
 }
 .box.person.yoann{
-	border: solid 2px darkblue;
-	border-radius: 25px;
-	background-color: greenyellow;
-	color: black;	
+	border: solid 2.5px lightskyblue;
+	background-color: #496c96;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 25px;
 }
+
 .box.person.yoann:hover {
-	border: solid 2px lightskyblue;
-	box-shadow: 20px 20px 20px 20px lightskyblue;
-	background-color: darkslateblue;
-	transition: ease-in-out 2;
-	
+	border-radius: 15px;
+	box-shadow: 6px 6px 6px 6px lightskyblue;
 }
 
 .box.person h3 {
 	margin: 0;
 }
-.box.person.yoann h3 {
-	margin: 0;
-	color: black;
-	
+.box.person.yoann h3{
+	font-size: 1.5em;
+	color: rgb(255, 255, 255);
 }
-
+.box.person.yoann hr{
+	margin: 0;
+	padding: 0;
+}
+.box.person.yoann p{
+	padding-top: 2em;
+	color: rgb(255, 255, 255);
+}
 .box.person .image {
 	display: flex;
     width: 147px;
     height: 147px;
 	margin: 0 auto 1em auto;
+}
+.box.person.yoann .image {
+	border: thick double lightskyblue;
+	border-radius: 50%;
 }
 
 .box.person .image img {
