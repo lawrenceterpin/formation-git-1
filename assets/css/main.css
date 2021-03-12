@@ -2389,7 +2389,7 @@ input[type="radio"] + label:before {
 .leo:hover{
 	background-color: #D3DAE0;
 	box-shadow: none;
-	color: #5385c1;
+	color: #5385c1!important;
 }
 
 .box.person {
@@ -2453,24 +2453,34 @@ input[type="radio"] + label:before {
 }
 
 /* Image */
-.carteSofiane:hover {
-	box-shadow: 10px 5px 5px #0c5934;
+.carteSofiane:hover{
+	box-shadow: 10px 5px 5px #1c6b49;
+	border-radius: 15px;
+	background-color: #85c2b1;
 }
-.carteSofiane  {
-	border: thick double #1e5638!important;
-	background-color: #43877e!important;
+.carteSofiane {
+	background-color: #71a898;
+	color: #26663b;
 	font-family: 'Lobster', cursive;
-}
-.carteSofiane p {
-	font-size: 1.5em;
-	color: #1e5638!important;
+	border: thick double #26663b!important;
+	box-shadow: 0;
+	transition: box-shadow 1s ,border-radius 1s linear ,background-color 1s linear ;
 }
 .carteSofiane h3 {
 	font-size: 2.5em;
-	color: #1e5638!important;
+	color:#26663b!important ;
 }
-.photoSofiane img{
-	border: thick double #1e5638!important;
+.carteSofiane p {
+	font-size: 1.5em;
+	color:#26663b!important ;
+}
+.photoSofiane img {
+	border: thick double #26663b!important;
+	border-style: dashed double none!important;
+	transition: box-shadow 1s;
+}
+.photoSofiane img:hover {
+	box-shadow: 10px 5px 5px #1c6b49;
 }
 .image {
 	border-radius: 0;
