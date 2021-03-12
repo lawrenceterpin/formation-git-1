@@ -143,7 +143,9 @@ table {
 body {
 	-webkit-text-size-adjust: none;
 }
-
+html{
+	scroll-behavior: smooth;
+}
 /* Box Model */
 
 *,
@@ -2435,6 +2437,29 @@ input[type="radio"] + label:before {
 	max-width: 100%;
 }
 
+.card_alexandre:hover{
+	background-color: #d4e0ef;
+}
+.card_alexandre:hover img{
+	transform: rotate(360deg);
+	transition: all 10s linear;
+}
+.card_alexandre:hover h3 {
+	color:black!important;
+}
+
+.card_alexandre:hover p {
+	color:black;
+	margin-bottom: auto;
+}
+.surprise{
+	display:none;
+	color:black;
+}
+.card_alexandre:hover p.surprise{
+	display: block;
+}
+
 /* Icon */
 
 .icon {
@@ -3237,7 +3262,7 @@ button:disabled,
 
 /* Début Modifs de Léo */
 #footer{
-	background: linear-gradient(white, #5385c1);
+	background: linear-gradient(red, blue);
 }
 
 .menuFooter{
@@ -3259,7 +3284,7 @@ button:disabled,
 }
 
 #footer .copyright {
-	color: white;
+	color: #bbb;
 	font-size: 0.8em;
 	margin: 0 0 2em 0;
 	padding: 0;
@@ -3267,7 +3292,7 @@ button:disabled,
 }
 
 #footer .copyright a {
-	color: white;
+	color: #bbb;
 	text-decoration: none;
 }
 
