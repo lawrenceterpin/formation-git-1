@@ -2389,7 +2389,7 @@ input[type="radio"] + label:before {
 .leo:hover{
 	background-color: #D3DAE0;
 	box-shadow: none;
-	color: #5385c1
+	color: #5385c1!important;
 }
 
 .box.person {
