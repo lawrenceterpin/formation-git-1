@@ -180,7 +180,17 @@ html{
 .container.\32 5\25 {
 	width: 20em;
 }
-
+.boxPerson1{
+	font-size: 5px;
+	width: 5px;
+	height: 5px;
+	box-shadow: 5px 5px 5px black;
+	background-color: #5385c1;
+}
+#img{
+	width: 3px;
+	height: 3px;
+}
 .container {
 	width: 80em;
 }
@@ -2383,6 +2393,16 @@ input[type="radio"] + label:before {
 	padding: 0;
 }
 
+.carteHayet{
+	opacity: 0;
+}
+
+.carteHayet:hover {
+	background-color:#2e8d438a;
+	transition: all 1s ease-out;
+	opacity: 1;
+}
+
 .leo{
 	box-shadow: .5em 3px 15px;
 	border-radius: 10px;
@@ -2487,21 +2507,42 @@ input[type="radio"] + label:before {
 	border-radius: 15px;
 	background-color: #85c2b1;
 }
+.carteSofiane:hover .hrSofiane{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.carteSofiane:hover h3{
+	font-size: 3em;
+	margin-top: 0.5em;
+	color:#399658!important;
+}
+.carteSofiane:hover p{
+	color:#256139!important;
+	font-size: 2em;
+}
+.carteSofiane:hover .photoSofiane{
+	margin-top: 2em;
+}
 .carteSofiane {
 	background-color: #71a898;
 	color: #26663b;
 	font-family: 'Lobster', cursive;
 	border: thick double #26663b!important;
 	box-shadow: 0;
-	transition: box-shadow 1s ,border-radius 1s linear ,background-color 1s linear ;
+	transition: 1s ;
 }
 .carteSofiane h3 {
 	font-size: 2.5em;
-	color:#26663b!important ;
+	color:#26663b!important;
+	transition: 1.5s;
 }
 .carteSofiane p {
 	font-size: 1.5em;
-	color:#26663b!important ;
+	color:#26663b!important;
+	transition: 1.5s;
+}
+.photoSofiane{
+	transition: 1.5s;
 }
 .photoSofiane img {
 	border: thick double #26663b!important;
@@ -2511,6 +2552,16 @@ input[type="radio"] + label:before {
 .photoSofiane img:hover {
 	box-shadow: 10px 5px 5px #1c6b49;
 }
+.hrSofiane {
+	color: #26663b;
+	border: 1px solid;
+	width: 50%;
+	margin:auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	transition: 1.5s;
+}
+
 .image {
 	border-radius: 0;
 	border: 0;
