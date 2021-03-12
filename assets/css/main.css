@@ -2387,9 +2387,15 @@ input[type="radio"] + label:before {
 }
 
 .leo:hover{
-	background-color: #D3DAE0;
-	box-shadow: none;
-	color: #5385c1!important;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: box-shadow 0.6s ease-in-out;
+}
+
+.imgLeo:hover{
+	border: 4px dotted blue;
+	border-radius: 50%;
+	transform: scale(1.25);
+	transition: transform 1s;
 }
 
 .box.person {
