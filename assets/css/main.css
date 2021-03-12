@@ -2383,6 +2383,7 @@ input[type="radio"] + label:before {
 
 .leo{
 	box-shadow: .5em 3px 15px;
+	border-radius: 10px;
 }
 
 .leo:hover{
