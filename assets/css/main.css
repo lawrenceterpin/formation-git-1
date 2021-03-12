@@ -2383,12 +2383,13 @@ input[type="radio"] + label:before {
 
 .leo{
 	box-shadow: .5em 3px 15px;
+	border-radius: 10px;
 }
 
 .leo:hover{
 	background-color: #D3DAE0;
 	box-shadow: none;
-	color: #5385c1
+	color: #5385c1;
 }
 
 .box.person {
