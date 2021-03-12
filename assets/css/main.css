@@ -2381,13 +2381,42 @@ input[type="radio"] + label:before {
 	padding: 0;
 }
 
+.leo{
+	box-shadow: .5em 3px 15px;
+	border-radius: 10px;
+}
+
+.leo:hover{
+	background-color: #D3DAE0;
+	box-shadow: none;
+	color: #5385c1
+}
+
 .box.person {
 	border: solid 1px rgba(255, 255, 255, 0.25);
 	padding: 3em 1.5em;
 }
+.box.person.yoann{
+	border: solid 2px darkblue;
+	border-radius: 25px;
+	background-color: greenyellow;
+	color: black;	
+}
+.box.person.yoann:hover {
+	border: solid 2px lightskyblue;
+	box-shadow: 20px 20px 20px 20px lightskyblue;
+	background-color: darkslateblue;
+	transition: ease-in-out 2;
+	
+}
 
 .box.person h3 {
 	margin: 0;
+}
+.box.person.yoann h3 {
+	margin: 0;
+	color: black;
+	
 }
 
 .box.person .image {
