@@ -2402,6 +2402,10 @@ input[type="radio"] + label:before {
 	max-width: 100%;
 }
 
+.moise {
+	background-color: red;
+}
+
 /* Icon */
 
 .icon {
