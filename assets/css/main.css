@@ -2572,8 +2572,12 @@ input[type="radio"] + label:before {
 	box-shadow: 10px 5px 5px #1c6b49;
 }
 .photoSofiane:hover{
-	width: 95%!important;
-	height: 33vh!important;
+	width: 98%!important;
+	height: 26vh!important;
+	margin-top: 1em!important;
+}
+.photoSofiane:hover .carteSofiane{
+	background-color: #3c5c53!important;
 }
 .hrSofiane {
 	color: #26663b;
