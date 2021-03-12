@@ -2401,6 +2401,89 @@ input[type="radio"] + label:before {
 	width: 100%;
 	max-width: 100%;
 }
+/*Box SOUL*/
+
+.boxsoul {
+	border: solid 5px rgba(62, 14, 192, 0.527);
+	padding: 3em 1.5em;
+	color: rgba(62, 14, 192, 0.527);
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.boxsoul h3 {
+	margin: 0;
+}
+
+.boxsoul .image {
+	display: flex;
+    width: 147px;
+    height: 147px;
+	margin: 0 auto 1em auto;
+}
+
+.boxsoul .image img {
+	width: 100%;
+	max-width: 100%;
+}
+/*IMG SOUL*/
+.image {
+	border-radius: 0;
+	border: 0;
+	display: inline-block;
+	position: relative;
+}
+
+.image img {
+	border-radius: 0;
+	display: block;
+}
+
+.image.left,
+.image.right {
+	max-width: 40%;
+}
+
+.image.left img,
+.image.right img {
+	width: 100%;
+}
+
+.image.soul img {
+	border-radius: 100%;
+}
+
+.image.left {
+	float: left;
+	padding: 0 1.5em 1em 0;
+	top: 0.25em;
+}
+
+.image.right {
+	float: right;
+	padding: 0 0 1em 1.5em;
+	top: 0.25em;
+}
+
+.image.fit {
+	display: block;
+	margin: 0 0 2em 0;
+	width: 100%;
+}
+
+.image.fit img {
+	width: 100%;
+}
+
+.image.main {
+	display: block;
+	margin: 0 0 3em 0;
+	width: 100%;
+}
+
+.image.main img {
+	width: 100%;
+}
+
 
 /* Icon */
 
